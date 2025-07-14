@@ -17,3 +17,7 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Alunos/Desktop/Gerenciador_de_Tarefas/Views/Tarefas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

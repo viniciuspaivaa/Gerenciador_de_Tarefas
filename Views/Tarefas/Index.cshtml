@@ -1,0 +1,32 @@
+@model IEnumerable<Gerenciador_de_Tarefas.Models.Tarefa>
+
+<h2>Lista de Tarefas</h2>
+<a href="/tarefas/criar">Nova Tarefa</a>
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Data Criada</th>
+        <th>Status</th>
+        <th>Ações</th>
+    </tr>
+    @foreach (var tarefa in Model)
+    {
+        <tr>
+            <td>@tarefa.Nome</td>
+            <td>@tarefa.DataCriada.ToString("dd/MM/yyyy HH:mm")</td>
+            <td>@(tarefa.Progresso == 1 ? "Concluída" : "Pendente")</td>
+            <td>
+                <a href="/tarefas/editar/@tarefa.Id">Editar</a>
+                <form asp-action="Excluir" asp-route-id="@tarefa.Id" method="post" style="display:inline">
+                    <button type="submit">Excluir</button>
+                </form>
+                @if (tarefa.Progresso == 0)
+                {
+                    <form asp-action="Concluir" asp-route-id="@tarefa.Id" method="post" style="display:inline">
+                        <button type="submit">Concluir</button>
+                    </form>
+                }
+            </td>
+        </tr>
+    }
+</table>

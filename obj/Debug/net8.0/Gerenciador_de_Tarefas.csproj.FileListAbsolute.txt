@@ -98,3 +98,5 @@ C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_T
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\ref\Gerenciador_de_Tarefas.dll
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.RazorAssemblyInfo.cache
+C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.RazorAssemblyInfo.cs

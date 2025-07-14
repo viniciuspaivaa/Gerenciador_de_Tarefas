@@ -1,4 +1,4 @@
-// Data/AppDbContext.cs
+using Gerenciador_de_Tarefas.Models;
 using Microsoft.EntityFrameworkCore;
 
 public class AppDbContext : DbContext

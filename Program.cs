@@ -10,10 +10,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
     ));
 
-
-
-builder.Services.AddControllers();
+builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
-app.MapControllers();
+app.MapDefaultControllerRoute();
 app.Run();
