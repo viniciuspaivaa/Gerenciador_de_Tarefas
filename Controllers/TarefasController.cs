@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Gerenciador_de_Tarefas.Models;
 
-[Route("tarefas")]
 public class TarefasController : Controller
 {
     private readonly AppDbContext _context;
@@ -19,13 +18,13 @@ public class TarefasController : Controller
         return View(tarefas);
     }
 
-    [HttpGet("criar")]
+    [HttpGet("Criar")]
     public IActionResult Criar()
     {
         return View();
     }
 
-    [HttpPost("criar")]
+    [HttpPost("Criar")]
     public async Task<IActionResult> Criar(Tarefa tarefa)
     {
         if (ModelState.IsValid)

@@ -2,13 +2,12 @@
 <link rel="stylesheet" href="~/css/criar.css" asp-append-version="true" />
 
 
-<form asp-action="Criar" method="post">
+<form asp-controller="Tarefas" asp-action="criar" method="post">
     <p id="title">Criar Nova Tarefa</p>
     <div>
         <label for="Nome">Nome da Tarefa:</label>
         <input asp-for="Nome" id="Nome" />
         <span asp-validation-for="Nome" style="color:red"></span>
     </div>
-    <button type="submit">Salvar</button>
-    <a href="/tarefas">Voltar</a>
+    <button type="submit">Concluir</button>
 </form>

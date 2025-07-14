@@ -18,12 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Alunos/Desktop/Gerenciador_de_Tarefas/Views/Tarefas/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xJbmRleC5jc2h0bWw=
+[C:/Users/Alunos/Desktop/Gerenciador_de_Tarefas/Views/Tarefas/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xDcmlhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alunos/Desktop/Gerenciador_de_Tarefas/Views/Tarefas/zCriar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1x6Q3JpYXIuY3NodG1s
+[C:/Users/Alunos/Desktop/Gerenciador_de_Tarefas/Views/Tarefas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Alunos/Desktop/Gerenciador_de_Tarefas/Views/Tarefas/_Criar.cshtml]

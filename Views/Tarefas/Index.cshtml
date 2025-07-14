@@ -1,7 +1,7 @@
 @model IEnumerable<Gerenciador_de_Tarefas.Models.Tarefa>
 
 <h2>Lista de Tarefas</h2>
-<a href="/tarefas/criar">Nova Tarefa</a>
+<a href="/Tarefas/Criar">Nova Tarefa</a>
 <table>
     <tr>
         <th>Nome</th>
@@ -16,13 +16,13 @@
             <td>@tarefa.DataCriada.ToString("dd/MM/yyyy HH:mm")</td>
             <td>@(tarefa.Progresso == 1 ? "Concluída" : "Pendente")</td>
             <td>
-                <a href="/tarefas/editar/@tarefa.Id">Editar</a>
-                <form asp-action="Excluir" asp-route-id="@tarefa.Id" method="post" style="display:inline">
+                <a href="/Tarefas/Editar/@tarefa.Id">Editar</a>
+                <form asp-controller="Tarefas" asp-action="Excluir" asp-route-id="@tarefa.Id" method="post" style="display:inline">
                     <button type="submit">Excluir</button>
                 </form>
                 @if (tarefa.Progresso == 0)
                 {
-                    <form asp-action="Concluir" asp-route-id="@tarefa.Id" method="post" style="display:inline">
+                    <form asp-controller="Tarefas" asp-action="Concluir" asp-route-id="@tarefa.Id" method="post" style="display:inline">
                         <button type="submit">Concluir</button>
                     </form>
                 }
@@ -35,4 +35,4 @@
 <div id="meuModal" style="display:none;">
     @await Html.PartialAsync("_Criar", new Gerenciador_de_Tarefas.Models.Tarefa())
 </div>
-<button onclick="document.getElementById('meuModal').style.display='block'">Abrir Popup</button>    
+<button onclick="document.getElementById('meuModal').style.display='block'">Abrir Popup</button>
