@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "lbhGH28rTSWDEXjikMqNkslldM/YS7a1xi9nS/BqpVk=",
+  "Hash": "3kEBxKaVIrDVaUsKBZ20rHOss/2N0fKOEHqm2SJuRYM=",
   "Source": "Gerenciador_de_Tarefas",
   "BasePath": "_content/Gerenciador_de_Tarefas",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Gerenciador_de_Tarefas\\wwwroot",
+      "Source": "Gerenciador_de_Tarefas",
+      "ContentRoot": "C:\\Users\\Alunos\\Desktop\\Gerenciador_de_Tarefas\\wwwroot\\",
+      "BasePath": "_content/Gerenciador_de_Tarefas",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Alunos\\Desktop\\Gerenciador_de_Tarefas\\wwwroot\\css\\criar.css",
+      "SourceId": "Gerenciador_de_Tarefas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Desktop\\Gerenciador_de_Tarefas\\wwwroot\\",
+      "BasePath": "_content/Gerenciador_de_Tarefas",
+      "RelativePath": "css/criar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\criar.css"
+    },
+    {
+      "Identity": "C:\\Users\\Alunos\\Desktop\\Gerenciador_de_Tarefas\\wwwroot\\css\\index.css",
+      "SourceId": "Gerenciador_de_Tarefas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alunos\\Desktop\\Gerenciador_de_Tarefas\\wwwroot\\",
+      "BasePath": "_content/Gerenciador_de_Tarefas",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    }
+  ]
 }

@@ -100,3 +100,4 @@ C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\refint\Gerenciad
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.pdb
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.genruntimeconfig.cache
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\ref\Gerenciador_de_Tarefas.dll
+C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\Gerenciador_de_Tarefas.staticwebassets.runtime.json

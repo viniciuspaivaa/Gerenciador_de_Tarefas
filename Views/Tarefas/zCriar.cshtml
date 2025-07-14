@@ -1,8 +1,9 @@
 @model Gerenciador_de_Tarefas.Models.Tarefa
+<link rel="stylesheet" href="~/css/criar.css" asp-append-version="true" />
 
-<h2>Criar Nova Tarefa</h2>
 
 <form asp-action="Criar" method="post">
+    <p id="title">Criar Nova Tarefa</p>
     <div>
         <label for="Nome">Nome da Tarefa:</label>
         <input asp-for="Nome" id="Nome" />
