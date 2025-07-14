@@ -30,3 +30,9 @@
         </tr>
     }
 </table>
+
+<!-- Exemplo de modal simples -->
+<div id="meuModal" style="display:none;">
+    @await Html.PartialAsync("_Criar", new Gerenciador_de_Tarefas.Models.Tarefa())
+</div>
+<button onclick="document.getElementById('meuModal').style.display='block'">Abrir Popup</button>    

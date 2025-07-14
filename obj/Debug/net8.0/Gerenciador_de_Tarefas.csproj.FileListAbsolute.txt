@@ -17,6 +17,8 @@ C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\Microsoft.Entity
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -81,6 +83,8 @@ C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_T
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.AssemblyInfo.cs
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.csproj.CoreCompileInputs.cache
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.RazorAssemblyInfo.cache
+C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.RazorAssemblyInfo.cs
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.sourcelink.json
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\staticwebassets.development.json
@@ -96,7 +100,3 @@ C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\refint\Gerenciad
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.pdb
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.genruntimeconfig.cache
 C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\ref\Gerenciador_de_Tarefas.dll
-C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\MySqlConnector.dll
-C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.RazorAssemblyInfo.cache
-C:\Users\Alunos\Desktop\Gerenciador_de_Tarefas\obj\Debug\net8.0\Gerenciador_de_Tarefas.RazorAssemblyInfo.cs
